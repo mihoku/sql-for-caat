@@ -62,7 +62,7 @@ INSERT INTO `customer_master` (`no_urut`, `kode_plg`, `nama_plg`, `alamat`, `tel
 	(27, 'CUST-027', 'Quick and Speedy Trans Bhd', '', '', '',0);
 /*!40000 ALTER TABLE `customer_master` ENABLE KEYS */;
 
--- Dumping structure for table latihan1.deliveryorder_master
+-- Dumping structure for table latihan1.sales_order
 DROP TABLE IF EXISTS `sales_order`;
 CREATE TABLE IF NOT EXISTS `sales_order` (
   `no_do` varchar(10) DEFAULT NULL,
@@ -75,7 +75,7 @@ CREATE TABLE IF NOT EXISTS `sales_order` (
   `total_sales` decimal(10,2) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
--- Dumping data for table latihan1.deliveryorder_master: 830 rows
+-- Dumping data for table latihan1.sales_order: 830 rows
 DELETE FROM `sales_order`;
 /*!40000 ALTER TABLE `sales_order` DISABLE KEYS */;
 INSERT INTO `sales_order` (`no_do`, `tgl_do`, `tgl_kirim`, `kode_plg`, `nilai_sales`, `jenis_sales`, `ppn`, `total_sales`) VALUES
@@ -909,7 +909,7 @@ INSERT INTO `sales_order` (`no_do`, `tgl_do`, `tgl_kirim`, `kode_plg`, `nilai_sa
 	('11075', '2020-05-17', '2020-05-21', 'CUST-026', 498.10, 'Lokal', 49.81, 547.91),
 	('11076', '2020-05-19', '2020-05-28', 'CUST-005', 792.75, 'Lokal', 79.28, 872.03),
 	('11077', '2020-05-21', '2020-05-27', 'CUST-005', 1255.72, 'Lokal', 125.57, 1381.29);
-/*!40000 ALTER TABLE `deliveryorder_master` ENABLE KEYS */;
+/*!40000 ALTER TABLE `sales_order` ENABLE KEYS */;
 
 -- Dumping structure for table latihan1.master_invoice
 DROP TABLE IF EXISTS `master_invoice`;
