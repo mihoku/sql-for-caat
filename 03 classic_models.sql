@@ -936,7 +936,7 @@ insert  into `orders`(`orderNumber`,`orderDate`,`requiredDate`,`shippedDate`,`st
 
 (10222,'2019-02-19','2019-02-27','2019-02-20','Shipped',NULL,239),
 
-(10223,'2019-02-20','2019-02-29','2019-02-24','Shipped',NULL,114),
+(10223,'2019-02-20','2019-02-28','2019-02-24','Shipped',NULL,114),
 
 (10224,'2019-02-21','2019-03-02','2019-02-26','Shipped','Customer has worked with some of our vendors in the past and is aware of their MSRP',171),
 
@@ -7903,7 +7903,7 @@ insert  into `payments`(`customerNumber`,`checkNumber`,`paymentDate`,`amount`) v
 
 (487,'AH612904','2018-09-28','29997.09'),
 
-(487,'PT550181','2019-02-29','12573.28'),
+(487,'PT550181','2019-02-28','12573.28'),
 
 (489,'OC773849','2018-12-04','22275.73'),
 
